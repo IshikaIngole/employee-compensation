@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Azure Functions local settings / secrets
+local.settings.json
+
+# VS Code
+.vscode/
+
+# Test/build artifacts
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Azure Functions
+# Azurite local storage
+__blobstorage__/
+__queuestorage__/
+__azurite_db_*.json
+AzuriteConfig
